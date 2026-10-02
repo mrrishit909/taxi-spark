@@ -1,0 +1,9 @@
+service,flow,trips,pct_paid_fee
+fhvhv,into,9532341,96.23
+fhvhv,out of,11323842,96.92
+fhvhv,outside,77563587,2.43
+fhvhv,within,17244191,97.51
+yellow,into,3156977,95.5
+yellow,out of,3560766,97.01
+yellow,outside,6087605,9.4
+yellow,within,9048490,98.09

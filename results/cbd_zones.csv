@@ -1,0 +1,38 @@
+zone,intra_trips,share_paid,borough,zone_name
+4,3842,0.9466423737636648,Manhattan,Alphabet City
+13,8992,0.9451734875444839,Manhattan,Battery Park City
+45,3307,0.9658300574538857,Manhattan,Chinatown
+48,52040,0.9682359723289777,Manhattan,Clinton East
+50,12107,0.9545717353597093,Manhattan,Clinton West
+68,56546,0.9723764722526792,Manhattan,East Chelsea
+79,65595,0.9709886424270142,Manhattan,East Village
+87,9657,0.9663456560008284,Manhattan,Financial District North
+88,2031,0.9212210733628754,Manhattan,Financial District South
+90,19721,0.9703868972161656,Manhattan,Flatiron
+100,9773,0.9508850915788397,Manhattan,Garment District
+107,25288,0.9706184751660867,Manhattan,Gramercy
+113,16263,0.977679394945582,Manhattan,Greenwich Village North
+114,12416,0.970360824742268,Manhattan,Greenwich Village South
+125,3927,0.9625668449197861,Manhattan,Hudson Sq
+137,10701,0.9635548079618728,Manhattan,Kips Bay
+144,12674,0.9652832570617011,Manhattan,Little Italy/NoLiTa
+148,26938,0.9657361348281238,Manhattan,Lower East Side
+158,15882,0.9682029971036393,Manhattan,Meatpacking/West Village West
+161,62115,0.9762698221041617,Manhattan,Midtown Center
+162,31622,0.9787173486812978,Manhattan,Midtown East
+163,24830,0.9708819975835683,Manhattan,Midtown North
+164,24749,0.9700189906662895,Manhattan,Midtown South
+170,37767,0.9726745571530702,Manhattan,Murray Hill
+186,11565,0.9605706874189365,Manhattan,Penn Station/Madison Sq West
+209,1942,0.9438722966014418,Manhattan,Seaport
+211,9773,0.9710426685766909,Manhattan,SoHo
+224,1309,0.944996180290298,Manhattan,Stuy Town/Peter Cooper Village
+229,18553,0.9720260874252142,Manhattan,Sutton Place/Turtle Bay North
+230,49995,0.9656365636563656,Manhattan,Times Sq/Theatre District
+231,72668,0.9766885011284197,Manhattan,TriBeCa/Civic Center
+232,13418,0.9561037412431063,Manhattan,Two Bridges/Seward Park
+233,13008,0.9678659286592866,Manhattan,UN/Turtle Bay South
+234,36090,0.9766417290108064,Manhattan,Union Sq
+246,49030,0.9609626759127065,Manhattan,West Chelsea/Hudson Yards
+249,33514,0.969952855523065,Manhattan,West Village
+261,5417,0.9352039874469263,Manhattan,World Trade Center

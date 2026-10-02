@@ -1,0 +1,14 @@
+AdaptiveSparkPlan isFinalPlan=false
++- Project [zone#37, intra_trips#38L, share_paid#39, borough#33, zone_name#34]
+   +- BroadcastHashJoin [zone#37], [zone#32], Inner, BuildRight, false, false
+      :- Filter (isnotnull(share_paid#39) AND ((share_paid#39 >= 0.9) AND (intra_trips#38L >= 1000)))
+      :  +- HashAggregate(keys=[pu#2], functions=[count(1), avg(cast((cbd_congestion_fee#6 > 0.0) as int))], output=[zone#37, intra_trips#38L, share_paid#39])
+      :     +- Exchange hashpartitioning(pu#2, 200), ENSURE_REQUIREMENTS, [plan_id=54]
+      :        +- HashAggregate(keys=[pu#2], functions=[partial_count(1), partial_avg(cast((cbd_congestion_fee#6 > 0.0) as int))], output=[pu#2, count#56L, sum#57, count#58L])
+      :           +- Project [pu#2, cbd_congestion_fee#6]
+      :              +- Filter ((isnotnull(pu#2) AND isnotnull(do#3)) AND (pu#2 = do#3))
+      :                 +- FileScan parquet [pu#2,do#3,cbd_congestion_fee#6,service#8,year#9,month#10] Batched: true, DataFilters: [isnotnull(pu#2), isnotnull(do#3), (pu#2 = do#3)], Format: Parquet, Location: InMemoryFileIndex(1 paths)[file:/Users/rishitmathurrishit/taxi-spark/data/trips], PartitionFilters: [isnotnull(year#9), (year#9 = 2025)], PushedFilters: [IsNotNull(pu), IsNotNull(do)], ReadSchema: struct<pu:int,do:int,cbd_congestion_fee:double>
+      +- BroadcastExchange HashedRelationBroadcastMode(List(cast(input[0, int, true] as bigint)),false), [plan_id=58]
+         +- Project [cast(LocationID#28 as int) AS zone#32, Borough#29 AS borough#33, Zone#30 AS zone_name#34]
+            +- Filter isnotnull(cast(LocationID#28 as int))
+               +- FileScan csv [LocationID#28,Borough#29,Zone#30] Batched: false, DataFilters: [isnotnull(cast(LocationID#28 as int))], Format: CSV, Location: InMemoryFileIndex(1 paths)[file:/Users/rishitmathurrishit/taxi-spark/data/raw/taxi_zone_lookup.csv], PartitionFilters: [], PushedFilters: [], ReadSchema: struct<LocationID:string,Borough:string,Zone:string>
