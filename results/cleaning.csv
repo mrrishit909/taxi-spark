@@ -1,0 +1,27 @@
+service,year,dropped,count
+fhvhv,2024,kept,115961028
+fhvhv,2024,zone unknown or outside NYC,4873368
+fhvhv,2024,no distance or over 100 miles,17056
+fhvhv,2024,negative fare,10689
+fhvhv,2024,no time or over 3 hours,2418
+fhvhv,2024,faster than 80 mph,109
+fhvhv,2025,kept,115663961
+fhvhv,2025,zone unknown or outside NYC,5310747
+fhvhv,2025,no distance or over 100 miles,14867
+fhvhv,2025,negative fare,4178
+fhvhv,2025,no time or over 3 hours,1403
+fhvhv,2025,faster than 80 mph,35
+yellow,2024,kept,19471193
+yellow,2024,no distance or over 100 miles,344429
+yellow,2024,negative fare,289313
+yellow,2024,zone unknown or outside NYC,208866
+yellow,2024,no time or over 3 hours,13331
+yellow,2024,faster than 80 mph,4812
+yellow,2024,pickup outside the file's month,149
+yellow,2025,kept,21853838
+yellow,2025,negative fare,1198424
+yellow,2025,no distance or over 100 miles,646161
+yellow,2025,no time or over 3 hours,201242
+yellow,2025,zone unknown or outside NYC,178666
+yellow,2025,faster than 80 mph,4916
+yellow,2025,pickup outside the file's month,137
