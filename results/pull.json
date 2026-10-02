@@ -1,0 +1,30 @@
+{
+  "source": "NYC TLC trip record data",
+  "files": [
+    "yellow_tripdata_2024-01.parquet",
+    "yellow_tripdata_2024-02.parquet",
+    "yellow_tripdata_2024-03.parquet",
+    "yellow_tripdata_2024-04.parquet",
+    "yellow_tripdata_2024-05.parquet",
+    "yellow_tripdata_2024-06.parquet",
+    "yellow_tripdata_2025-01.parquet",
+    "yellow_tripdata_2025-02.parquet",
+    "yellow_tripdata_2025-03.parquet",
+    "yellow_tripdata_2025-04.parquet",
+    "yellow_tripdata_2025-05.parquet",
+    "yellow_tripdata_2025-06.parquet",
+    "fhvhv_tripdata_2024-01.parquet",
+    "fhvhv_tripdata_2024-02.parquet",
+    "fhvhv_tripdata_2024-03.parquet",
+    "fhvhv_tripdata_2024-04.parquet",
+    "fhvhv_tripdata_2024-05.parquet",
+    "fhvhv_tripdata_2024-06.parquet",
+    "fhvhv_tripdata_2025-01.parquet",
+    "fhvhv_tripdata_2025-02.parquet",
+    "fhvhv_tripdata_2025-03.parquet",
+    "fhvhv_tripdata_2025-04.parquet",
+    "fhvhv_tripdata_2025-05.parquet",
+    "fhvhv_tripdata_2025-06.parquet"
+  ],
+  "total_mb": 6602
+}
